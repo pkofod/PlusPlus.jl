@@ -8,7 +8,7 @@
 
 Stress is becoming a large problem in the developed world. People have far too little to worry about,
 so they actively try to find problems and worries. This packages tries to reduce the
-stress in modern society, but solving one of the biggest problems we face today:
-string concatenation.
+stress in modern society by solving one of the biggest problems we face today:
+`a*b` string concatenation.
 
 This package is well-documented, well-tested, and doesn't rely on too many dependencies.
