@@ -5,3 +5,10 @@
 [![Coverage Status](https://coveralls.io/repos/pkofod/PlusPlus.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/pkofod/PlusPlus.jl?branch=master)
 
 [![codecov.io](http://codecov.io/github/pkofod/PlusPlus.jl/coverage.svg?branch=master)](http://codecov.io/github/pkofod/PlusPlus.jl?branch=master)
+
+Stress is becoming a large problem in the developed world. People have far too little to worry about,
+so they actively try to find problems and worries. This packages tries to reduce the
+stress in modern society, but solving one of the biggest problems we face today:
+string concatenation.
+
+This package is well-documented, well-tested, and doesn't rely on too many dependencies.

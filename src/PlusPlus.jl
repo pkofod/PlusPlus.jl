@@ -1,5 +1,12 @@
 module PlusPlus
 
-# package code goes here
+export ++
+
+"""
+++(a, b)
+
+Concatenates strings much better than *
+"""
+++(a, b) = a*b
 
 end # module
