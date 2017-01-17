@@ -11,4 +11,11 @@ so they actively try to find problems and worries. This packages tries to reduce
 stress in modern society by solving one of the biggest problems we face today:
 `a*b` string concatenation.
 
+Demonstration:
+```julia
+julia> using PlusPlus
+
+julia> "a"++"b"
+"ab"
+```
 This package is well-documented, well-tested, and doesn't rely on too many dependencies.
