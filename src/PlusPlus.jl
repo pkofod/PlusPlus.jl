@@ -11,7 +11,7 @@ Concatenates strings much better than *
 
 """
 ++(a, b...)
-Concatenates Vectors much better than *
+Concatenates Vectors much better than vcat
 """
 ++(a::AbstractVector, b::AbstractVector...) = vcat(a, b...)
 
