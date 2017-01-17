@@ -18,4 +18,4 @@ julia> using PlusPlus
 julia> "a"++"b"
 "ab"
 ```
-This package is well-documented, well-tested, and doesn't rely on too many dependencies.
+This package is no longer well-documented or well-tested, but still doesn't rely on too many dependencies.
