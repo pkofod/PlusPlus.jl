@@ -7,7 +7,7 @@ export ++
 
 Concatenates strings much better than *
 """
-++(a, b) = a*b
+++(a::AbstractString, b::AbstractString) = a*b
 
 """
 ++(a, b...)
