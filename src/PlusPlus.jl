@@ -3,11 +3,11 @@ module PlusPlus
 export ++
 
 """
-++(a, b)
+++(a, b...)
 
-Concatenates strings much better than *
+Concatenates strings or chars much better than *
 """
-++(a::AbstractString, b::AbstractString) = a*b
+++(a::Union{AbstractChar, AbstractString}, b::Union{AbstractChar, AbstractString}...) = *(a, b...)
 
 """
 ++(a, b...)
