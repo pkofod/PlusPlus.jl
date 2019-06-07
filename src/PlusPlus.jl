@@ -7,7 +7,7 @@ export ++
 
 Concatenates strings or chars much better than *
 """
-++(a::Union{AbstractChar, AbstractString}, b::Union{AbstractChar, AbstractString}...) = *(s1,   ss...)
+++(a::Union{AbstractChar, AbstractString}, b::Union{AbstractChar, AbstractString}...) = *(a, b...)
 
 """
 ++(a, b...)
